@@ -10,7 +10,7 @@ from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
 from src.mcqgenerator.logger import logging
 
 #Loading Json File
-with open ("C:\\Users\\chait\\mcqgen\\Response.json","r") as file:
+with open ("C:\Users\chait\mcqgen\Response.json","r") as file:
     RESPONSE_JSON = json.load(file)
 # Creating a title for the app
 st.title("MCQ Creator Application with Langchain")
